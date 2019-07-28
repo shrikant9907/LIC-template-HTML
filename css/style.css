@@ -29,6 +29,10 @@ body {
     border-left: 4px solid #F8C434;
 }
 
+.bg-primary {
+	background: #024282 !important;
+} 
+
 .heading,
 .sub_heading,
 .main_heading,
@@ -948,4 +952,9 @@ ul.check_listing li i, ul.check_listing li svg {
     left: 0;
     bottom: 0;
     right: 0;
+}
+
+
+.card_with_icon2 {
+    box-shadow: 0px 0px 9px 5px #f5f5f5 !important;
 }
