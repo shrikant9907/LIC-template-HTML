@@ -12,6 +12,23 @@ body {
 	color: #024282;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #024282 !important;
+    border-radius: 0;
+    border:none;
+    padding: 9px 20px 10px 20px;
+    max-width: 100%;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.btn-primary:hover {
+    border-left: 4px solid #F8C434;
+}
+
 .heading,
 .sub_heading,
 .main_heading,
@@ -33,22 +50,18 @@ h6 {
 	text-transform: uppercase;
 }
 
+.bg_light_blue {
+	background: #e5f0fc;
+}
+
+.bg_light_yellow {
+	background: #fff5db;
+}
 
 /***************************Header CSS Start*****************************/
 
 .svg-inline--fa.fa-phone.fa-w-16 {
 	transform: rotateZ(102deg);
-}
-
-div.city_select {
-	width: 150px;
-	margin: 17px 0px 15px 60px;
-	display: inline-block;
-	box-shadow: 0px 3px 5px -4px rgba(0, 0, 0, 0.7);
-}
-
-div.city_select .custom-select {
-	border: none;
 }
 
 .header_btn_wr {
@@ -863,4 +876,76 @@ header#main_header {
 .footer_style1 ul li:first-child {
 	padding: 0px;
 	border-left: none;
+}
+
+/*Heading Style*/
+.heading_style {
+	font-weight: bold;
+	color: #024282;
+}
+
+.heading_style span {
+    background: #F8C434 !important;
+    padding: 0 5px;
+}
+
+ul.check_listing {
+	list-style: none;
+	padding: 0;
+}
+
+ul.check_listing li {
+    padding: 10px 0 10px 50px;
+    background: #fafafa;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+ul.check_listing li:hover {
+	background: rgba(248, 196, 52, 0.2);
+}
+
+ul.check_listing li i, ul.check_listing li svg {
+    color: #19b919;
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    font-size: 18px;
+    margin-top: -9px;
+}
+
+/*Download Cards*/
+.download-card {
+    border: 1px solid #F8C434 !important;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.download-card:hover {
+    box-shadow: 0 0 15px 0 #F8C434;
+}
+
+.download-card .card-body {
+    padding-left: 77px;
+}
+
+.download-card i,
+.download-card svg {
+    left: 20px;
+    top: 50%;
+    font-size: 50px;
+    margin-top: -25px;
+    color: #F8C434;
+}
+
+.download-card a {
+    position: absolute;
+    font-size: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
