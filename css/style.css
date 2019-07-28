@@ -33,6 +33,10 @@ body {
 	background: #024282 !important;
 } 
 
+.text_yellow {
+	color: #F8C434 !important;
+}
+
 .heading,
 .sub_heading,
 .main_heading,
@@ -61,6 +65,11 @@ h6 {
 .bg_light_yellow {
 	background: #fff5db;
 }
+
+.bg_yellow {
+	background: #F8C434 !important;
+}
+
 
 /***************************Header CSS Start*****************************/
 
@@ -379,13 +388,13 @@ h6 {
 /*Contact Page*/
 
 iframe.google_map_contactpage {
-	width: 100%;
-	height: 467px;
-	pointer-events: none;
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	max-height: 100%;
-	margin: 0px;
+    width: 100%;
+    pointer-events: none;
+    max-height: 100%;
+    margin: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
 }
 
 form.form_contant {
@@ -839,14 +848,19 @@ h4.batch_update_title {
 }
 .site_logo span.logo_text {
 	color: #333333;
-	font-size: 24px;
-	line-height: 26px;
+    font-size: 20px;
+    line-height: 22px;
 }
 
 .site_logo span.text-muted {
 	display: inline-block;
 	position: relative;
 	left: 1px;
+}
+
+.lic_logo_center {
+    width: 115px;
+    margin: 6px 0;
 }
 
 header#main_header {
@@ -958,3 +972,4 @@ ul.check_listing li i, ul.check_listing li svg {
 .card_with_icon2 {
     box-shadow: 0px 0px 9px 5px #f5f5f5 !important;
 }
+
