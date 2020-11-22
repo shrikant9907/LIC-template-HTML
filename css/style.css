@@ -8,7 +8,11 @@ body {
 	color: #333333;
 }
 
-.link, a {
+a {
+	color: #024282;
+}
+
+.link {
 	color: #024282 !important;
 }
 
