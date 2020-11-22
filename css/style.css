@@ -9,7 +9,7 @@ body {
 }
 
 .link, a {
-	color: #024282;
+	color: #024282 !important;
 }
 
 .btn-primary {
@@ -885,10 +885,11 @@ header#main_header {
 }
 
 .footer_style1 ul li {
-    padding: 0px 0 0 15px;
+    padding: 0px 0 0 15px !important;
     margin-left: 10px;
     border-left: 1px solid #fefefe;
-    line-height: 14px;
+	line-height: 14px;
+	display: inline-block;
 }
 
 .footer_style1 ul li:first-child {
