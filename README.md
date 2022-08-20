@@ -1,2 +1,2 @@
-# startertheme
-You can use this starter theme for new web page designs.
+# Simple HTML Template for LIC Agent
+
